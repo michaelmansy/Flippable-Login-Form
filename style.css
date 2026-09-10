@@ -43,3 +43,21 @@ body{
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
 }
 
+.back{
+    transform: rotateY(180deg);
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+h2{
+    font-style: 26px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #1a1a1a;
+}
+
+
+
