@@ -103,3 +103,21 @@ input:focus{
 .submit:hover{
     background: #2e5cb8;
 }
+
+.footer{
+    text-align: center;
+    margin-top: 16px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+span{
+    color: #3867d6;
+    cursor: pointer;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+span:hover{
+    text-decoration: underline;
+}
