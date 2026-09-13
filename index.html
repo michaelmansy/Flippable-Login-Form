@@ -25,7 +25,7 @@
                 </div>
                 <button class="submit">Sign In</button>
                 <div class="footer">
-                    <p>Don't have an account? <span id="flip">Sign Up</span></p>
+                    <p>Don't have an account? <span onclick="flip()">Sign Up</span></p>
                 </div>
             </div>
 
@@ -42,11 +42,16 @@
                 </div>
                 <button class="submit">Get Started</button>
                 <div class="footer">
-                    <p>Already a member? <span id="flip">Sign In</span></p>
+                    <p>Already a member? <span onclick="flip()">Sign In</span></p>
                 </div>
             </div>
         </div>
     </div>
     
 </body>
+<script>
+    function flip() {
+        document.getElementById('card').classList.toggle('flipped');
+    }
+</script>
 </html>
